@@ -8,11 +8,7 @@ public final class Fraction {
         if (denominator == 0) {
             System.out.println("Division by zero.");
             throw new RuntimeException("Division by 0");
-        }
-//        if (denominator < 0) {
-//            denominator = (-1) * denominator;
-//            numerator = (-1) * numerator;
-//        }
+ 
         this.numerator = numerator;
         this.denominator = denominator;
     }
