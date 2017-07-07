@@ -6,7 +6,6 @@ public final class Fraction {
 
     public Fraction(long numerator, long denominator) {
         if (denominator == 0) {
-            System.out.println("Division by zero.");
             throw new RuntimeException("Division by 0");
  
         this.numerator = numerator;
